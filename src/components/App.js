@@ -23,17 +23,17 @@ const App = () => {
     const [performanceData, setPerformanceData] = useState(initialPerformance);
 
 /***************************************
-* Desc: Set performance data from local storage
+* Desc: Set performance data from session storage
 * Date: 08-July-2021
 * ********************************/
   useEffect(() => {
-      if (localStorage.getItem('performanceData')) {
-          setPerformanceData(JSON.parse(localStorage.getItem('performanceData')));
+      if (sessionStorage.getItem('performanceData')) {
+          setPerformanceData(JSON.parse(sessionStorage.getItem('performanceData')));
       }
   }, []);
     
     useEffect(() => {
-        localStorage.setItem('performanceData',JSON.stringify(performanceData))
+        sessionStorage.setItem('performanceData',JSON.stringify(performanceData))
     }, [performanceData]);
     
     /***************************************

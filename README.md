@@ -12,7 +12,7 @@ Performance Summary - As we make calls in Data Representation page, performance 
 
 3 Charts - Area Chart, Line Chart, Line Bar Chart
 
-Persist Data - LocalStorage makes sure the user can log back into find his performance data
+Persist Data - sessionStorage makes sure the user can log back into find his performance data
 
 Responsive - Website is ready to be viewed on Mobile, Desktop and Tablets
 
