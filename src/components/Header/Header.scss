@@ -1,0 +1,20 @@
+a.nav-link {
+  font-size: 42px;
+  color: white;
+  background-color: cornflowerblue;
+
+  transition: 1s font-size;
+  &:hover {
+    color: white;
+    background-color: darkorange !important;
+    font-size: 48px;
+  }
+  &:active,
+  &:focus {
+    color: white;
+  }
+  i {
+    color: white;
+    font-size: 32px;
+  }
+}

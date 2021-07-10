@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LandingPage should render correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="comment-control-container"
+  >
+    <button
+      className="btn btn-success btn-lg"
+      id="fetchButton"
+      onClick={[Function]}
+      type="button"
+    >
+      Fetch Comments
+    </button>
+    <button
+      className="btn btn-danger btn-lg"
+      id="clearButton"
+      onClick={[Function]}
+      type="button"
+    >
+      Clear
+    </button>
+  </div>
+  <h2
+    className="display-5 text-center"
+  >
+    No Comments to Show
+  </h2>
+</div>
+`;

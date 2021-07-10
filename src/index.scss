@@ -1,0 +1,10 @@
+body {
+  background-color: #ffffff;
+  font-size: 1rem;
+
+  .app-container,
+  .container,
+  .container-fluid {
+    min-height: 100vh;
+  }
+}

@@ -1,0 +1,14 @@
+footer {
+  position: static;
+  bottom: 0;
+  background-color: lightsteelblue;
+  color: white;
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  justify-content: center;
+  align-items: center;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}

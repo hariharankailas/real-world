@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LandingPage should render correctly 1`] = `
+<div
+  className="container performance-summary-container"
+>
+  <h1>
+    Performance Summary
+  </h1>
+  <div
+    class="row performance-summary-chart"
+  >
+    <MyAreaChart />
+  </div>
+  <div
+    class="row performance-summary-toggle-chart"
+  >
+    <div
+      aria-label="Chart Buttons"
+      class="btn-group"
+      role="group"
+    >
+      <button
+        class="btn btn-success"
+        id="myAreaChart"
+        onClick={[Function]}
+        type="button"
+      >
+        Area Chart
+      </button>
+      <button
+        class="btn btn-primary"
+        id="myChart"
+        onClick={[Function]}
+        type="button"
+      >
+        Line Chart
+      </button>
+      <button
+        class="btn btn-secondary"
+        id="myLineBar"
+        onClick={[Function]}
+        type="button"
+      >
+        Bar Chart
+      </button>
+    </div>
+  </div>
+  <div
+    class="row mt-2 d-inline-flex performance-summary-toggle-chart"
+  >
+    <button
+      class="btn btn-danger"
+      type="button"
+    >
+      Clear Data
+    </button>
+  </div>
+</div>
+`;
